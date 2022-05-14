@@ -11,10 +11,13 @@ pip install -e .
 依存するパッケージはありません.
 
 ## 準備
+
 1. https://notify-bot.line.me/ja/ に自分のLINEアカウントでログイン
-<img width="1021" alt="Screen Shot 2022-05-14 at 11 48 35" src="https://user-images.githubusercontent.com/63869611/168408095-bbbf93f4-75b8-4893-b49c-42ebf1829a7c.png">
 2. 右上の自分のアカウント>マイページに行く
 3. Generate token を押して表示されるトークンをメモしておく
+
+<img width="1021" alt="Screen Shot 2022-05-14 at 11 48 35" src="https://user-images.githubusercontent.com/63869611/168408095-bbbf93f4-75b8-4893-b49c-42ebf1829a7c.png">
+
 ## 使い方
 
 ```
