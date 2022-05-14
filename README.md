@@ -5,7 +5,7 @@
 ```
 git clone git@github.com:DaikiMiwa/line_notify.git
 cd line_notify
-pip install line_notify
+pip install -e .
 ```
 
 依存するパッケージはありません.
