@@ -1,5 +1,0 @@
-setup.py
-notifyline/notifyline.egg-info/PKG-INFO
-notifyline/notifyline.egg-info/SOURCES.txt
-notifyline/notifyline.egg-info/dependency_links.txt
-notifyline/notifyline.egg-info/top_level.txt
