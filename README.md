@@ -1,4 +1,4 @@
-# pythonを使ってLineに通知を送りたい方へ...
+# line_notify
 
 line notifyの超簡単なラッパーです
 
