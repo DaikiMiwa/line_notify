@@ -1,5 +1,7 @@
 # pythonを使ってLineに通知を送りたい方へ...
 
+line notifyの超簡単なラッパーです
+
 ## インストール
 
 ```
@@ -8,7 +10,7 @@ cd line_notify
 pip install -e .
 ```
 
-依存するパッケージはありません.
+requests パッケージに依存しています
 
 ## 準備
 
@@ -20,18 +22,13 @@ pip install -e .
 
 ## 使い方
 ```
-import notify_line as ln
+import line_notify as ln 
 
 token = "準備でメモしたトークン"
 message = "送信したいテキスト"
 
 # 通知を送信
-ln.send_notification (message,token)
+ln.send_notification(message,token)
 ```
 
 以上を実行すると, lineにメッセージが送信されるはずです
-実験の終了や進捗状況を通知すると便利ですかね？
-
-## 備考
-shell scriptにした方が便利な気がしてきました
-
