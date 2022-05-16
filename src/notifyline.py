@@ -1,9 +1,9 @@
 import requests 
 
-def notify_line(text:str,token:str):
+def send_notification(text:str,token:str):
     """ textとtokenを指定して実行することでlineに通知してくれます
 
-    この関数を使うためには, line.meでaccess tokenを発行しておく必要があります.
+    この関数を使うためには, 事前にlineの公式サイトでaccess tokenを発行しておく必要があります.
 
     Args:
        text(str) : 送信するためのメッセージ
