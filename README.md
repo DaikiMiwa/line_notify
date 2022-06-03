@@ -32,3 +32,4 @@ ln.send_notification(message,token)
 ```
 
 以上を実行すると, lineにメッセージが送信されるはずです!
+
