@@ -31,4 +31,5 @@ message = "送信したいテキスト"
 ln.send_notification(message,token)
 ```
 
-以上を実行すると, lineにメッセージが送信されるはずです!!
+以上を実行すると, lineにメッセージが送信されるはずです!
+
